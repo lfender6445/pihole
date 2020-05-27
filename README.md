@@ -34,3 +34,5 @@ docker pull pihole/pihole
 
 # password reset
 sudo docker exec -it pihole pihole -a -p
+# old 978f0f055997
+https://hub.docker.com/r/pihole/pihole/
