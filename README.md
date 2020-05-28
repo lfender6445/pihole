@@ -36,3 +36,6 @@ docker pull pihole/pihole
 sudo docker exec -it pihole pihole -a -p
 # old 978f0f055997
 https://hub.docker.com/r/pihole/pihole/
+
+# reload lists
+sudo docker exec -it 41b49ef07fc3 pihole restartdns reload-lists
